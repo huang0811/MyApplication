@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity(), GestureDetector.OnGestureListener, Vie
 
     override fun onScroll(e1: MotionEvent, e2: MotionEvent, distanceX: Float, distanceY: Float): Boolean {
         if (distanceY >= 0){
-            txv.text = "生日：2003/08/11(民國92年)"
+            txv.text = "生日：(民國92年)2003/08/11"
         }
         else{
             txv.text = "不暴躁的獅子座"
