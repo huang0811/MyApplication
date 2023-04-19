@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity(), GestureDetector.OnGestureListener, Vie
     }
 
     override fun onShowPress(p0: MotionEvent) {
-        txv.text = "喜歡出去玩"
+        txv.text = "喜歡出去玩 "
     }
 
     override fun onSingleTapUp(p0: MotionEvent): Boolean {
